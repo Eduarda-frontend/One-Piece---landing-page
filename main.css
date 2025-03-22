@@ -319,6 +319,9 @@ footer {
   }
 }
 @media (max-width: 767px) {
+  .sumario {
+    height: 80vh;
+  }
   .sumario__paragrafo {
     font-size: 1em;
   }

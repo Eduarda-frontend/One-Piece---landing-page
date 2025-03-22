@@ -253,6 +253,7 @@ footer{
 @media (min-width: 992px) and (max-width: 1199px) {
 
   .sumario{
+
     &__paragrafo {
       font-size: 1.5em;
     }
@@ -288,6 +289,7 @@ footer{
 
 @media (min-width: 768px) and (max-width: 991px) {
   .sumario{
+  
     &__paragrafo {
       font-size: 1.2em;
     }
@@ -329,6 +331,8 @@ footer{
 
 @media (max-width: 767px) {
   .sumario{
+    height: 80vh;
+    
     &__paragrafo {
       font-size: 1em;
     }
