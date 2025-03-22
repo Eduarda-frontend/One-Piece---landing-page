@@ -334,7 +334,7 @@ footer{
     }
   }
   .container__button{
-    margin: 5em 5em;
+    margin: 5em 0em;
   }
   body {
     font-size: 14px;
@@ -549,3 +549,12 @@ footer{
   }
 }
 
+@media (max-width: 560px) {
+  .col {
+    min-width: 200px;
+  }
+}
+
+.owl-nav{
+  display: none;
+}
